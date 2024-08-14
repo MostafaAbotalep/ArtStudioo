@@ -1,0 +1,171 @@
+body {
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+.btn {
+    padding: 18px 85px;
+    border-style: none;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #202020;
+    color: white;
+} 
+.btn:hover {
+    background-color: #333232;
+    color: white;
+} 
+
+nav {
+    background-color: #edeae5;
+}
+
+nav .navbar-brand {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li .nav-link {
+    margin-left: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav ul li .icon {
+    margin-left: 50px;
+    font-size: 30px;
+    color: black;
+    margin-top: 5px;
+}
+
+.main {
+    background-color: #edeae5 ;
+    height: 700px;
+}
+.main .text {
+    width: 500px;  
+} 
+.main .content .text ,
+.main .content .image {
+    margin-top: 110px
+}
+.main .content .text p {
+    font-size: 20px;
+}
+.about .text {
+    width: 500px;
+}
+.about .content .image {
+    margin-top: 110px
+}
+.about .content .text {
+    margin-top: 70px
+}
+.passions {
+    padding-top: 30px;
+    height:700px;
+    background-color: #202020;
+    color: white;    
+    font-weight: bold;
+}
+.passions .title {
+    font-size: 100px;
+}
+.passions span {
+    font-size: 60px;
+}
+.passions img {
+    cursor: pointer;
+}
+.blog {
+    height: 800px;
+}
+.blog span {
+    font-size: 50px;
+}
+.blog .post {
+    background-color: #bbaa96;
+    color: white;
+    margin-top: 40px;
+    padding: 30px;
+}
+.blog .post .image {
+    width: 500px;
+}
+.blog .post .text {
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.blog .post .text span {
+    font-size: 50px;
+}
+.blog .post .text p {
+    font-size: 18px;
+}
+.blog .btnn {
+    margin-left: 450px;
+}
+.contact {
+    background-color: #edeae5;
+    height: 300px;
+    padding-top: 70px;
+}
+.contact span {
+    font-size: 50px;
+}
+.follow-us .content {
+    line-height: 0.8;
+}
+.follow-us .content p {
+    font-size: 35px;   
+}
+.follow-us .content span {
+    font-size: 50px;
+}
+.follow-us .content a {
+    text-decoration: none; 
+    color: black;   
+}
+.follow-us .content ul {
+    list-style: none;
+    font-size: 20px;
+}
+.insta .row img {
+    height: 500px;
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+.insta .row div {
+    overflow: hidden;
+}
+.insta .row img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+} 
+.footer {
+    background-color: #202020;
+    height: 470px;
+    color: white;
+}
+.footer ul {
+    list-style: none;
+    line-height: 1.8;
+    color: white;    
+}
+.footer ul a {
+    text-decoration: none;
+    color: white;
+}
+.footer ul a:hover {
+    cursor: pointer;
+} 
+.footer .md {
+    font-size: 60px;
+    font-family: cursive;
+}
